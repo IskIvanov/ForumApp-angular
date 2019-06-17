@@ -1,0 +1,33 @@
+#postcard {
+    margin: auto;
+    margin-top: 10px;
+    border-color: #3DD8F7;
+}
+
+.btn-sm {
+    margin: 0.1rem;
+}
+
+.card-body {
+    padding: 0.5rem;
+}
+
+.like {
+    color: green;
+    width: 45px;
+    height: 25px;
+    border-color: rgb(94, 255, 0);
+    background-color: rgb(238, 237, 237);
+}
+
+.dislike {
+    color: red;
+    border-color: rgb(235, 74, 0);
+    background-color: rgb(238, 237, 237);
+}
+
+i.fas {
+    align-content: flex-start;
+    font-size: 25px;
+    color: #3DD8F7;
+}

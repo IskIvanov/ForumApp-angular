@@ -1,0 +1,30 @@
+.btn-srch:hover {
+    background-color: rgb(55, 160, 34);
+    color: white;
+    border-color: white;
+}
+
+.btn:hover {
+    background-color: #44318D;
+    color: white;
+    border-color: white;
+}
+
+.btn { 
+    border-color: #3DD8F7;
+}
+
+.navbar-brand {
+    width: 60px;
+    height: 60px;
+}
+
+.nav-link {
+    filter: opacity(30%);
+    width: 55px;
+    height: 55px;
+}
+
+.form-control {
+    border-color: #3DD8F7;   
+}

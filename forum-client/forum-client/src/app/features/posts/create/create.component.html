@@ -1,0 +1,29 @@
+<form>
+  <div class="form-group">
+    <label for="postTopic">Topic</label>
+    <input
+      #topicInput
+      type="text"
+      class="form-control"
+      id="postTopic"
+      aria-describedby="postTopic"
+      placeholder="Enter topic"
+    />
+  </div>
+  <div class="form-group">
+    <label for="postContent">Content</label>
+    <textarea
+      #contentInput
+      class="form-control"
+      id="postContent"
+      rows="3"
+    ></textarea>
+  </div>
+  <button
+    type="button"
+    class="btn btn-primary"
+    (click)="createPost(topicInput.value, contentInput.value)"
+  >
+    Submit
+  </button>
+</form>

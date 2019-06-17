@@ -1,0 +1,8 @@
+<app-navbar
+  [loggedIn]="isLogged"
+  [username]="username"
+  (emitSearch)="search($event)"
+  (emitLogout)="logout()"
+></app-navbar>
+
+<router-outlet></router-outlet>

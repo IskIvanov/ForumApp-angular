@@ -1,0 +1,13 @@
+<div class="container">
+  <div id="postcard" class="card w-75">
+    <div class="card-body">
+      <h5 class="card-title">{{ post.title }}</h5>
+      <p class="card-text">{{ post.content }}</p>
+      <a href="#" class="like btn-sm btn-secondary"><span class="fas fa-arrow-alt-circle-up fa-sm">like</span></a>
+      <a href="#" class="dislike btn-sm btn-secondary"><span class="fas fa-arrow-alt-circle-down fa-sm">dislike</span></a>
+      <a href="#" class="btn-sm btn-primary" (click)="getPostId($event)" routerLink="/comments">comments</a>
+      <a href="#" class="btn-sm btn-primary">share</a>
+      <a href="#" class="btn-sm btn-primary">OOO</a>
+    </div>
+  </div>
+</div>
