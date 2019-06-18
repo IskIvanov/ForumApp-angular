@@ -1,0 +1,86 @@
+/* OLD
+#postcard {
+    margin: auto;
+    margin-top: 10px;
+    border-color: #3DD8F7;
+}
+
+.btn-sm {
+    margin: 0.1rem;
+}
+
+.card-body {
+    padding: 0.5rem;
+}
+
+.like {
+    color: green;
+    width: 45px;
+    height: 25px;
+    border-color: rgb(94, 255, 0);
+    background-color: rgb(238, 237, 237);
+}
+
+.dislike {
+    color: red;
+    border-color: rgb(235, 74, 0);
+    background-color: rgb(238, 237, 237);
+}
+
+i.fas {
+    align-content: flex-start;
+    font-size: 25px;
+    color: #3DD8F7;
+} */
+
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .example-card{
+      margin-top: 4px;
+  }
+  
+  .example-header-image { 
+    background-size: cover;
+  }
+  
+  .title{
+      font-weight: bold;
+  }
+  
+  .img-article{
+      height: 350px;
+  }
+  
+  .action-buttons{
+      text-align: center;
+  }
+  
+  .example-container {
+      width: 100%;
+      height: auto;
+      border: 1px solid rgba(111, 111, 111, 0.50);
+  }
+  
+  .example-sidenav-content {
+      display: flex;
+      height: 75%;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .example-sidenav {
+      padding: 20px;
+  }
+  
+  .source-name {
+      margin-left:5px; 
+  }
+  
+  .list-item:hover{
+      cursor: pointer;
+      background-color: #3f51b5;
+      color: white;
+  }

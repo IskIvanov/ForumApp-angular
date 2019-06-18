@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <img class="navbar-brand" src="../../../assets/locumi_200x200.png" href="home">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav col">
+      <li class="nav-item active">
+        <a href="home" routerLink="posts"><img class="nav-link" src="../../../assets/home-btn.png" type="img" href="home"><span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <form class="form-inline col my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" #searchedText>
+      <button class="btn btn-srch btn-outline-secondary my-2 my-sm-0" type="button" (click)="search(searchedText.value)">Search</button>
+    </form>
+    <button class="btn btn-outline-secondary my-2 my-sm-0" routerLink="">new post</button>
+    <div class="col">
+      <ng-template [ngIf]="loggedIn" >
+        <span> {{ username }} </span>
+        <button class="btn btn-outline-secondary my-2 my-sm-0 float-right" type="button" (click)="triggerLogout()">Logout</button>
+      </ng-template>
+      <ng-template [ngIf]="!loggedIn" >
+        <button class="btn btn-outline-secondary my-2 my-sm-0 float-right" type="submit" routerLink="login">Login</button>
+        <button class="btn btn-outline-secondary my-2 my-sm-0 float-right" type="submit" routerLink="register">Register</button>
+      </ng-template>
+    </div>
+  </div>
+</nav>
